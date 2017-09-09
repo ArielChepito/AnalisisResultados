@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udb.sv.com.analisisresultados.Vista.analisis2"
+    android:background="@drawable/vegetariano"
+    style="@style/layoutandpadding" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle"
+        android:background="@drawable/green_rounded"
+        style="@style/centerTitle" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/vegetarian_food"
+            style="@style/textDescription"
+            android:background="@drawable/white_rounded" />
+    </LinearLayout>
+</RelativeLayout>

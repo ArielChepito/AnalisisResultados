@@ -1,11 +1,32 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style> <!-- Padding de layouts -->
+    <style name="layoutandpadding">
+        <item name="android:padding">15dp</item>
+    </style> <!-- Titulos centrados -->
+    <style name="centerTitle">
+        <item name="android:padding">10dp</item><!--Padding-->
+        <item name="android:textSize">30sp</item><!--Texto-->
+        <item name="android:layout_centerHorizontal">true</item><!--Centrar en RelativeLayout-->
+        <item name="android:layout_gravity">center</item><!--Centrar en LinearLayout-->
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_margin">5dp</item>
+    </style> <!-- Descripciones -->
+    <style name="textDescription">
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+    </style> <!-- Texto de ordenar ahora -->
+    <style name="textOrderNow">
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold|italic</item>
     </style>
 
 </resources>

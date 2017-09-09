@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Analisis Complementarios</string>
+
+    <string name="tittle">Vegetarian?</string>
+    <string name="vegetarian_food">
+        A vegetarian is someone who doesn\'t eat meat, and mostly
+        eats foods that come from plants, like grains, fruits, vegetables,
+        and nuts. Some stricter vegetarians avoid more than just meat.
+        They also avoid animal products, which are nonmeat foods that come from animals.
+        Some examples would be milk (from cows) and eggs (from chickens). </string>
+    <string name="ordernow">
+        Local favorites,\n delivered faster\n . Order Now!!! </string>
 </resources>

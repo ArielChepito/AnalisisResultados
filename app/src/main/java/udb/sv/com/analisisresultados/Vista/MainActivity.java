@@ -7,6 +7,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     } catch (ClassNotFoundException e) {
                         Log.d("Erorrsito",e.getMessage());
+                        Toast.makeText(MainActivity.this,menu + " - "+ position,Toast.LENGTH_LONG).show();
                     }
 
 
@@ -78,10 +80,18 @@ public class MainActivity extends AppCompatActivity {
             add(new Menu("Analisis l",
                     "Investigar cómo crear Layouts anidados (Hace uso de LinearLayout y RelativeLayout juntos).",
                     "analisis1"));
-            add(new Menu("Complementario  l","descripcion","d"));
-            add(new Menu("Analisis 2","descripcion","d"));
-            add(new Menu("Complementario  2","descripcion","d"));
-            add(new Menu("Complementario  3","descripcion","d"));
+            add(new Menu("Complementario  l",
+                    "descripcion",
+                    ""));
+            add(new Menu("Analisis 2",
+                    "descripcion",
+                    "analisis2"));
+            add(new Menu("Complementario  2",
+                    "descripcion",
+                    ""));
+            add(new Menu("Complementario  3",
+                    "descripcion",
+                    ""));
 
 
 

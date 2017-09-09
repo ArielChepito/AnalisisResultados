@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Vista.analisis1"></activity>
+        <activity android:name=".Vista.analisis1" />
+        <activity android:name=".Vista.analisis2"></activity>
     </application>
 
 </manifest>

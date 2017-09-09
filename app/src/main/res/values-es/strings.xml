@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SOMGUIA02</string>
+    <string name="tittle">¿Vegetariano?</string>
+    <string name="vegetarian_food">
+        Un vegetariano es alguien que no come carne, y en su mayoría come alimentos
+        que provienen de las plantas, como granos, frutas, verduras y frutos secos.
+        Algunos vegetarianos más estrictos evitan algo más que carne: También evitan
+        productos de origen animal, los cuales son los alimentos no cárnicos que provienen de
+        animales. Algunos ejemplos serían la leche (de vaca) y los huevos (de gallina). </string>
+    <string name="ordernow"> Tus tiendas de conveniencia, \n entrega rápida\n ¡Ordena ahora! </string>
+</resources>
