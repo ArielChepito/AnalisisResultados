@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Vista.analisis1" />
-        <activity android:name=".Vista.analisis2"></activity>
+        <activity android:name=".Vista.analisis2" />
+        <activity
+            android:name=".Vista.Analisis3"
+            android:label="@string/title_activity_analisis3"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

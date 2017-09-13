@@ -10,4 +10,7 @@
         Some examples would be milk (from cows) and eggs (from chickens). </string>
     <string name="ordernow">
         Local favorites,\n delivered faster\n . Order Now!!! </string>
+    <string name="title_activity_analisis3">Analisis3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
