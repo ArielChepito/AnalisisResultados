@@ -21,7 +21,8 @@
         <activity
             android:name=".Vista.Analisis3"
             android:label="@string/title_activity_analisis3"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Vista.Complementario2"></activity>
     </application>
 
 </manifest>

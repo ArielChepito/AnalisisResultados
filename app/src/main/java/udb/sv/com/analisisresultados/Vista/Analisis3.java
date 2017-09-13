@@ -91,6 +91,23 @@ public class Analisis3 extends AppCompatActivity {
                     final EditText caja2 = (EditText) rootView.findViewById(R.id.txtFactor);
                     final EditText resultado = (EditText) rootView.findViewById(R.id.txtResultados);
                     resultado.setKeyListener(null);
+                    /*
+                    * Use this simple code:
+
+                        textView.setKeyListener(null);
+                        It works.
+
+                        Edit : To add KeyListener later, do following
+
+                        1 : set key listener to tag of textView
+
+                        textView.setTag(textView.getKeyListener());
+                        textView.setKeyListener(null);
+                        2 : get key listener from tag and set it back to textView
+
+                        textView.setKeyListener((KeyListener) textView.getTag());
+                    *
+                    * */
                     Button boton = (Button) rootView.findViewById(R.id.btnCalcular);
                     boton.setOnClickListener(new View.OnClickListener() {
                         @Override

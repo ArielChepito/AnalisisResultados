@@ -81,10 +81,13 @@ public class MainActivity extends AppCompatActivity {
                     "Investigar cómo crear Layouts anidados (Hace uso de LinearLayout y RelativeLayout juntos).",
                     "analisis1"));
             add(new Menu("Analisis 2",
-                    "descripcion",
+                    "Diseño para pantallas amplias",
                     "analisis2"));
+            add(new Menu("Complementario 2",
+                    "Pagina de idiomas para la universidad Don Bosco",
+                    "Complementario2"));
             add(new Menu("Analisis  3",
-                    "descripcion",
+                    "Conversos de unidades y calculo de segunda ley de Newton",
                     "Analisis3"));
 
 
