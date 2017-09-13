@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.Temperatura"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        style="@style/edittextstyle"
+        android:id="@+id/temperatura"
+        android:background="@drawable/rounder_edittext"
+        android:hint="Ingrese la temperatura"
+        android:inputType="numberSigned"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEvaluarTemperatura"
+        android:background="@drawable/boton_plano"
+        android:textColor="#fff"
+        android:text="Evaluar Temperatura"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvDescripcion"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="......."
+        android:textSize="30dp"
+        android:layout_margin="8dp"
+
+        />
+
+</LinearLayout>
